@@ -2,7 +2,7 @@ import assert from 'assert';
 import cp from 'child_process';
 import fs from 'fs';
 import path from 'path';
-import { promisify } from 'bluebird';
+import Promise, { promisify } from 'bluebird';
 
 const readFile = promisify(fs.readFile);
 const exec = promisify(cp.exec);
