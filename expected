@@ -1,0 +1,26 @@
+index.js:4
+  4: const fail: boolean = sum(1, null, false);
+                           ^^^^^^^^^^^^^^^^^^^ function call
+  4: const fail: boolean = sum(1, null, false);
+                           ^^^^^^^^^^^^^^^^^^^ number. This type is incompatible with
+  4: const fail: boolean = sum(1, null, false);
+                 ^^^^^^^ boolean
+
+index.js:4
+  4: const fail: boolean = sum(1, null, false);
+                           ^^^^^^^^^^^^^^^^^^^ function call
+  4: const fail: boolean = sum(1, null, false);
+                                  ^^^^ null. This type is incompatible with
+  2: export function sum(...numbers: Array<number>): number {
+                                           ^^^^^^ number. See: lib/Math.js:2
+
+index.js:4
+  4: const fail: boolean = sum(1, null, false);
+                           ^^^^^^^^^^^^^^^^^^^ function call
+  4: const fail: boolean = sum(1, null, false);
+                                        ^^^^^ boolean. This type is incompatible with
+  2: export function sum(...numbers: Array<number>): number {
+                                           ^^^^^^ number. See: lib/Math.js:2
+
+
+Found 3 errors
